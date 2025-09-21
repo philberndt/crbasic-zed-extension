@@ -1,0 +1,11 @@
+id = "crbasic"
+name = "CRBasic"
+description = "CRBasic language support for Campbell Scientific dataloggers"
+version = "0.1.0"
+schema_version = 1
+authors = ["philberndt <phil@berndt.no>"]
+repository = "https://github.com/philberndt/crbasic-zed-extension"
+
+[grammars.crbasic]
+repository = "https://github.com/philberndt/tree-sitter-crbasic"
+commit = "2e48590e1cb74fcd6dc05f8ff09ed6a0083f31db"

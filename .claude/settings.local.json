@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__fetch__fetch",
+      "Bash(./build.ps1)",
+      "Bash(tree-sitter generate:*)",
+      "Bash(zed extensions install:*)",
+      "Bash(tree-sitter:*)",
+      "WebSearch",
+      "Bash(rustc --version)",
+      "Bash(rustup --version)",
+      "Bash(zed:*)",
+      "mcp__github__get_file_contents",
+      "mcp__github__search_repositories",
+      "mcp__github__create_repository",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git reset:*)",
+      "Bash(git rm:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "Bash(git clone:*)",
+      "Bash(git init:*)",
+      "Read(//c/Dev/**)",
+      "Bash(git rev-parse:*)",
+      "mcp__context7__get-library-docs",
+      "mcp__deepwiki__ask_question",
+      "Bash(cat:*)",
+      "Bash(taplo lint:*)",
+      "Bash(tree:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

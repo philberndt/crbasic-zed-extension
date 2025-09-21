@@ -1,0 +1,38 @@
+name = "CRBasic"
+grammar = "crbasic"
+path_suffixes = [
+  "cr300", "CR300",
+  "cr6", "CR6",
+  "cr1x", "CR1X",
+  "cr9x", "CR9X",
+  "cr1", "CR1",
+  "cr2", "CR2",
+  "cr3", "CR3",
+  "cr5", "CR5",
+  "cr8", "CR8",
+  "cr9", "CR9",
+  "crb", "CRB",
+  "dld", "DLD"
+]
+line_comments = ["' "]
+word_characters = ["_"]
+brackets = [
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+  { start = "If", end = "EndIf", close = true, newline = true },
+  { start = "For", end = "Next", close = true, newline = true },
+  { start = "While", end = "Wend", close = true, newline = true },
+  { start = "Do", end = "Loop", close = true, newline = true },
+  { start = "Select", end = "EndSelect", close = true, newline = true },
+  { start = "BeginProg", end = "EndProg", close = true, newline = true },
+  { start = "Function", end = "EndFunction", close = true, newline = true },
+  { start = "Sub", end = "EndSub", close = true, newline = true },
+  { start = "Scan", end = "NextScan", close = true, newline = true },
+  { start = "SubScan", end = "NextSubScan", close = true, newline = true },
+  { start = "DataTable", end = "EndTable", close = true, newline = true },
+  { start = "ConstTable", end = "EndConstTable", close = true, newline = true },
+  { start = "DisplayMenu", end = "EndMenu", close = true, newline = true },
+  { start = "SubMenu", end = "EndSubMenu", close = true, newline = true },
+  { start = "SlowSequence", end = "EndSequence", close = true, newline = true },
+]

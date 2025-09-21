@@ -1,0 +1,59 @@
+# Zed Extension Development
+
+# Tree-sitter generated files
+/grammars/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+*.so
+*.dll
+*.dylib
+*.node
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Development files
+test_results/
+coverage/
+.nyc_output/
+zed_docs.md
+CLAUDE.md
+AGENTS.md
+sample_01.CR300
+sample_02.CR1X
+sample_03.CR300
+
+# Local configuration
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*~
